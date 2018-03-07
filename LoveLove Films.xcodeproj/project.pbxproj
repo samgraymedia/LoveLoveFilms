@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		578BC948B8D34F0EFB3C1644 /* Pods_LoveLove_Films.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5BEC79C569894FF54911C04 /* Pods_LoveLove_Films.framework */; };
+		EBE83A161CF5236200CF1100 /* LoveLove_FilmsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE83A151CF5236200CF1100 /* LoveLove_FilmsTests.swift */; };
+		EBE83A211CF5236200CF1100 /* LoveLove_FilmsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE83A201CF5236200CF1100 /* LoveLove_FilmsUITests.swift */; };
+		EBE83A4B1CF523D100CF1100 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE83A2F1CF523D100CF1100 /* AppDelegate.swift */; };
+		EBE83A4C1CF523D100CF1100 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBE83A301CF523D100CF1100 /* Assets.xcassets */; };
+		EBE83A4D1CF523D100CF1100 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = EBE83A311CF523D100CF1100 /* Base.lproj */; };
+		EBE83A4E1CF523D100CF1100 /* BudgetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE83A321CF523D100CF1100 /* BudgetController.swift */; };
+		EBE83A4F1CF523D100CF1100 /* CharactersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE83A331CF523D100CF1100 /* CharactersController.swift */; };
+		EBE83A501CF523D100CF1100 /* ContactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE83A341CF523D100CF1100 /* ContactController.swift */; };
+		EBE83A511CF523D100CF1100 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE83A351CF523D100CF1100 /* CustomButton.swift */; };
+		EBE83A521CF523D100CF1100 /* DeadlineController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE83A361CF523D100CF1100 /* DeadlineController.swift */; };
+		EBE83A531CF523D100CF1100 /* DescriptionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE83A371CF523D100CF1100 /* DescriptionController.swift */; };
+		EBE83A541CF523D100CF1100 /* EndController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE83A381CF523D100CF1100 /* EndController.swift */; };
+		EBE83A561CF523D100CF1100 /* LocationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE83A3A1CF523D100CF1100 /* LocationController.swift */; };
+		EBE83A571CF523D100CF1100 /* LoveLove_I_phone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EBE83A3B1CF523D100CF1100 /* LoveLove_I_phone.xcdatamodeld */; };
+		EBE83A581CF523D100CF1100 /* ModeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE83A3D1CF523D100CF1100 /* ModeScreen.swift */; };
+		EBE83A591CF523D100CF1100 /* NumberVideoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE83A3E1CF523D100CF1100 /* NumberVideoController.swift */; };
+		EBE83A5A1CF523D100CF1100 /* PlatformController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE83A3F1CF523D100CF1100 /* PlatformController.swift */; };
+		EBE83A5B1CF523D100CF1100 /* ProjectNameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE83A401CF523D100CF1100 /* ProjectNameController.swift */; };
+		EBE83A5C1CF523D100CF1100 /* RunningTimeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE83A411CF523D100CF1100 /* RunningTimeController.swift */; };
+		EBE83A5D1CF523D100CF1100 /* StyleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE83A421CF523D100CF1100 /* StyleController.swift */; };
+		EBE83A5E1CF523D100CF1100 /* SummaryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE83A431CF523D100CF1100 /* SummaryController.swift */; };
+		EBE83A5F1CF523D100CF1100 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE83A441CF523D100CF1100 /* Video.swift */; };
+		EBE83A601CF523D100CF1100 /* VideoExampleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE83A451CF523D100CF1100 /* VideoExampleController.swift */; };
+		EBE83A611CF523D100CF1100 /* VideoTypeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE83A461CF523D100CF1100 /* VideoTypeController.swift */; };
+		EBE83A621CF523D100CF1100 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE83A471CF523D100CF1100 /* VideoView.swift */; };
+		EBE83A631CF523D100CF1100 /* VideoViewControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE83A481CF523D100CF1100 /* VideoViewControl.swift */; };
+		EBE83A641CF523D100CF1100 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE83A491CF523D100CF1100 /* ViewController.swift */; };
+		EBE83A661CF5252F00CF1100 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBE83A651CF5252F00CF1100 /* Main.storyboard */; };
+		EBE83A681CF5292900CF1100 /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EBE83A671CF528F600CF1100 /* Raleway-Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBE83A121CF5236200CF1100 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBE839F51CF5236200CF1100 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBE839FC1CF5236200CF1100;
+			remoteInfo = "LoveLove Films";
+		};
+		EBE83A1D1CF5236200CF1100 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBE839F51CF5236200CF1100 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBE839FC1CF5236200CF1100;
+			remoteInfo = "LoveLove Films";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2118FE7B4D6E4E643FDCCBDA /* Pods-LoveLove Films.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveLove Films.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoveLove Films/Pods-LoveLove Films.release.xcconfig"; sourceTree = "<group>"; };
+		B3DEC2B33D962062D1820B29 /* Pods-LoveLove Films.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveLove Films.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoveLove Films/Pods-LoveLove Films.debug.xcconfig"; sourceTree = "<group>"; };
+		B5BEC79C569894FF54911C04 /* Pods_LoveLove_Films.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoveLove_Films.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBE839FD1CF5236200CF1100 /* LoveLove Films.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LoveLove Films.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBE83A111CF5236200CF1100 /* LoveLove FilmsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LoveLove FilmsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBE83A151CF5236200CF1100 /* LoveLove_FilmsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveLove_FilmsTests.swift; sourceTree = "<group>"; };
+		EBE83A171CF5236200CF1100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBE83A1C1CF5236200CF1100 /* LoveLove FilmsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LoveLove FilmsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBE83A201CF5236200CF1100 /* LoveLove_FilmsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveLove_FilmsUITests.swift; sourceTree = "<group>"; };
+		EBE83A221CF5236200CF1100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBE83A2F1CF523D100CF1100 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBE83A301CF523D100CF1100 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBE83A311CF523D100CF1100 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
+		EBE83A321CF523D100CF1100 /* BudgetController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BudgetController.swift; sourceTree = "<group>"; };
+		EBE83A331CF523D100CF1100 /* CharactersController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharactersController.swift; sourceTree = "<group>"; };
+		EBE83A341CF523D100CF1100 /* ContactController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactController.swift; sourceTree = "<group>"; };
+		EBE83A351CF523D100CF1100 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		EBE83A361CF523D100CF1100 /* DeadlineController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeadlineController.swift; sourceTree = "<group>"; };
+		EBE83A371CF523D100CF1100 /* DescriptionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescriptionController.swift; sourceTree = "<group>"; };
+		EBE83A381CF523D100CF1100 /* EndController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndController.swift; sourceTree = "<group>"; };
+		EBE83A391CF523D100CF1100 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBE83A3A1CF523D100CF1100 /* LocationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationController.swift; sourceTree = "<group>"; };
+		EBE83A3C1CF523D100CF1100 /* LoveLove_I_phone.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LoveLove_I_phone.xcdatamodel; sourceTree = "<group>"; };
+		EBE83A3D1CF523D100CF1100 /* ModeScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModeScreen.swift; sourceTree = "<group>"; };
+		EBE83A3E1CF523D100CF1100 /* NumberVideoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberVideoController.swift; sourceTree = "<group>"; };
+		EBE83A3F1CF523D100CF1100 /* PlatformController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlatformController.swift; sourceTree = "<group>"; };
+		EBE83A401CF523D100CF1100 /* ProjectNameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectNameController.swift; sourceTree = "<group>"; };
+		EBE83A411CF523D100CF1100 /* RunningTimeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RunningTimeController.swift; sourceTree = "<group>"; };
+		EBE83A421CF523D100CF1100 /* StyleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleController.swift; sourceTree = "<group>"; };
+		EBE83A431CF523D100CF1100 /* SummaryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummaryController.swift; sourceTree = "<group>"; };
+		EBE83A441CF523D100CF1100 /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		EBE83A451CF523D100CF1100 /* VideoExampleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoExampleController.swift; sourceTree = "<group>"; };
+		EBE83A461CF523D100CF1100 /* VideoTypeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoTypeController.swift; sourceTree = "<group>"; };
+		EBE83A471CF523D100CF1100 /* VideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		EBE83A481CF523D100CF1100 /* VideoViewControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewControl.swift; sourceTree = "<group>"; };
+		EBE83A491CF523D100CF1100 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EBE83A651CF5252F00CF1100 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		EBE83A671CF528F600CF1100 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBE839FA1CF5236200CF1100 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				578BC948B8D34F0EFB3C1644 /* Pods_LoveLove_Films.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBE83A0E1CF5236200CF1100 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBE83A191CF5236200CF1100 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25158D196FA3AF1CB394100D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5BEC79C569894FF54911C04 /* Pods_LoveLove_Films.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C378197E9A3495A7864F49D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3DEC2B33D962062D1820B29 /* Pods-LoveLove Films.debug.xcconfig */,
+				2118FE7B4D6E4E643FDCCBDA /* Pods-LoveLove Films.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EBE839F41CF5236200CF1100 = {
+			isa = PBXGroup;
+			children = (
+				EBE839FF1CF5236200CF1100 /* LoveLove Films */,
+				EBE83A141CF5236200CF1100 /* LoveLove FilmsTests */,
+				EBE83A1F1CF5236200CF1100 /* LoveLove FilmsUITests */,
+				EBE839FE1CF5236200CF1100 /* Products */,
+				2C378197E9A3495A7864F49D /* Pods */,
+				25158D196FA3AF1CB394100D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EBE839FE1CF5236200CF1100 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBE839FD1CF5236200CF1100 /* LoveLove Films.app */,
+				EBE83A111CF5236200CF1100 /* LoveLove FilmsTests.xctest */,
+				EBE83A1C1CF5236200CF1100 /* LoveLove FilmsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBE839FF1CF5236200CF1100 /* LoveLove Films */ = {
+			isa = PBXGroup;
+			children = (
+				EBE83A2F1CF523D100CF1100 /* AppDelegate.swift */,
+				EBE83A301CF523D100CF1100 /* Assets.xcassets */,
+				EBE83A311CF523D100CF1100 /* Base.lproj */,
+				EBE83A321CF523D100CF1100 /* BudgetController.swift */,
+				EBE83A331CF523D100CF1100 /* CharactersController.swift */,
+				EBE83A341CF523D100CF1100 /* ContactController.swift */,
+				EBE83A351CF523D100CF1100 /* CustomButton.swift */,
+				EBE83A361CF523D100CF1100 /* DeadlineController.swift */,
+				EBE83A371CF523D100CF1100 /* DescriptionController.swift */,
+				EBE83A381CF523D100CF1100 /* EndController.swift */,
+				EBE83A391CF523D100CF1100 /* Info.plist */,
+				EBE83A3A1CF523D100CF1100 /* LocationController.swift */,
+				EBE83A3B1CF523D100CF1100 /* LoveLove_I_phone.xcdatamodeld */,
+				EBE83A651CF5252F00CF1100 /* Main.storyboard */,
+				EBE83A3D1CF523D100CF1100 /* ModeScreen.swift */,
+				EBE83A3E1CF523D100CF1100 /* NumberVideoController.swift */,
+				EBE83A3F1CF523D100CF1100 /* PlatformController.swift */,
+				EBE83A401CF523D100CF1100 /* ProjectNameController.swift */,
+				EBE83A411CF523D100CF1100 /* RunningTimeController.swift */,
+				EBE83A421CF523D100CF1100 /* StyleController.swift */,
+				EBE83A431CF523D100CF1100 /* SummaryController.swift */,
+				EBE83A441CF523D100CF1100 /* Video.swift */,
+				EBE83A451CF523D100CF1100 /* VideoExampleController.swift */,
+				EBE83A461CF523D100CF1100 /* VideoTypeController.swift */,
+				EBE83A471CF523D100CF1100 /* VideoView.swift */,
+				EBE83A481CF523D100CF1100 /* VideoViewControl.swift */,
+				EBE83A491CF523D100CF1100 /* ViewController.swift */,
+				EBE83A671CF528F600CF1100 /* Raleway-Regular.ttf */,
+			);
+			path = "LoveLove Films";
+			sourceTree = "<group>";
+		};
+		EBE83A141CF5236200CF1100 /* LoveLove FilmsTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBE83A151CF5236200CF1100 /* LoveLove_FilmsTests.swift */,
+				EBE83A171CF5236200CF1100 /* Info.plist */,
+			);
+			path = "LoveLove FilmsTests";
+			sourceTree = "<group>";
+		};
+		EBE83A1F1CF5236200CF1100 /* LoveLove FilmsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EBE83A201CF5236200CF1100 /* LoveLove_FilmsUITests.swift */,
+				EBE83A221CF5236200CF1100 /* Info.plist */,
+			);
+			path = "LoveLove FilmsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBE839FC1CF5236200CF1100 /* LoveLove Films */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBE83A251CF5236200CF1100 /* Build configuration list for PBXNativeTarget "LoveLove Films" */;
+			buildPhases = (
+				EDC7702245D401B0A01F9DF3 /* [CP] Check Pods Manifest.lock */,
+				EBE839F91CF5236200CF1100 /* Sources */,
+				EBE839FA1CF5236200CF1100 /* Frameworks */,
+				EBE839FB1CF5236200CF1100 /* Resources */,
+				8BEC667243864BC4A8BF57E8 /* [CP] Embed Pods Frameworks */,
+				27615C5F750EAF6175B813AE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LoveLove Films";
+			productName = "LoveLove Films";
+			productReference = EBE839FD1CF5236200CF1100 /* LoveLove Films.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBE83A101CF5236200CF1100 /* LoveLove FilmsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBE83A281CF5236200CF1100 /* Build configuration list for PBXNativeTarget "LoveLove FilmsTests" */;
+			buildPhases = (
+				EBE83A0D1CF5236200CF1100 /* Sources */,
+				EBE83A0E1CF5236200CF1100 /* Frameworks */,
+				EBE83A0F1CF5236200CF1100 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBE83A131CF5236200CF1100 /* PBXTargetDependency */,
+			);
+			name = "LoveLove FilmsTests";
+			productName = "LoveLove FilmsTests";
+			productReference = EBE83A111CF5236200CF1100 /* LoveLove FilmsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EBE83A1B1CF5236200CF1100 /* LoveLove FilmsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBE83A2B1CF5236200CF1100 /* Build configuration list for PBXNativeTarget "LoveLove FilmsUITests" */;
+			buildPhases = (
+				EBE83A181CF5236200CF1100 /* Sources */,
+				EBE83A191CF5236200CF1100 /* Frameworks */,
+				EBE83A1A1CF5236200CF1100 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBE83A1E1CF5236200CF1100 /* PBXTargetDependency */,
+			);
+			name = "LoveLove FilmsUITests";
+			productName = "LoveLove FilmsUITests";
+			productReference = EBE83A1C1CF5236200CF1100 /* LoveLove FilmsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBE839F51CF5236200CF1100 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Kathryn McGowan (i7673473)";
+				TargetAttributes = {
+					EBE839FC1CF5236200CF1100 = {
+						CreatedOnToolsVersion = 7.0.1;
+						LastSwiftMigration = 0830;
+					};
+					EBE83A101CF5236200CF1100 = {
+						CreatedOnToolsVersion = 7.0.1;
+						LastSwiftMigration = 0830;
+						TestTargetID = EBE839FC1CF5236200CF1100;
+					};
+					EBE83A1B1CF5236200CF1100 = {
+						CreatedOnToolsVersion = 7.0.1;
+						LastSwiftMigration = 0830;
+						TestTargetID = EBE839FC1CF5236200CF1100;
+					};
+				};
+			};
+			buildConfigurationList = EBE839F81CF5236200CF1100 /* Build configuration list for PBXProject "LoveLove Films" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBE839F41CF5236200CF1100;
+			productRefGroup = EBE839FE1CF5236200CF1100 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBE839FC1CF5236200CF1100 /* LoveLove Films */,
+				EBE83A101CF5236200CF1100 /* LoveLove FilmsTests */,
+				EBE83A1B1CF5236200CF1100 /* LoveLove FilmsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBE839FB1CF5236200CF1100 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBE83A681CF5292900CF1100 /* Raleway-Regular.ttf in Resources */,
+				EBE83A4C1CF523D100CF1100 /* Assets.xcassets in Resources */,
+				EBE83A4D1CF523D100CF1100 /* Base.lproj in Resources */,
+				EBE83A661CF5252F00CF1100 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBE83A0F1CF5236200CF1100 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBE83A1A1CF5236200CF1100 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27615C5F750EAF6175B813AE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoveLove Films/Pods-LoveLove Films-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BEC667243864BC4A8BF57E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoveLove Films/Pods-LoveLove Films-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDC7702245D401B0A01F9DF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBE839F91CF5236200CF1100 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBE83A4E1CF523D100CF1100 /* BudgetController.swift in Sources */,
+				EBE83A601CF523D100CF1100 /* VideoExampleController.swift in Sources */,
+				EBE83A631CF523D100CF1100 /* VideoViewControl.swift in Sources */,
+				EBE83A541CF523D100CF1100 /* EndController.swift in Sources */,
+				EBE83A591CF523D100CF1100 /* NumberVideoController.swift in Sources */,
+				EBE83A571CF523D100CF1100 /* LoveLove_I_phone.xcdatamodeld in Sources */,
+				EBE83A521CF523D100CF1100 /* DeadlineController.swift in Sources */,
+				EBE83A641CF523D100CF1100 /* ViewController.swift in Sources */,
+				EBE83A5D1CF523D100CF1100 /* StyleController.swift in Sources */,
+				EBE83A4F1CF523D100CF1100 /* CharactersController.swift in Sources */,
+				EBE83A501CF523D100CF1100 /* ContactController.swift in Sources */,
+				EBE83A531CF523D100CF1100 /* DescriptionController.swift in Sources */,
+				EBE83A4B1CF523D100CF1100 /* AppDelegate.swift in Sources */,
+				EBE83A5A1CF523D100CF1100 /* PlatformController.swift in Sources */,
+				EBE83A561CF523D100CF1100 /* LocationController.swift in Sources */,
+				EBE83A611CF523D100CF1100 /* VideoTypeController.swift in Sources */,
+				EBE83A5E1CF523D100CF1100 /* SummaryController.swift in Sources */,
+				EBE83A621CF523D100CF1100 /* VideoView.swift in Sources */,
+				EBE83A5F1CF523D100CF1100 /* Video.swift in Sources */,
+				EBE83A511CF523D100CF1100 /* CustomButton.swift in Sources */,
+				EBE83A5B1CF523D100CF1100 /* ProjectNameController.swift in Sources */,
+				EBE83A581CF523D100CF1100 /* ModeScreen.swift in Sources */,
+				EBE83A5C1CF523D100CF1100 /* RunningTimeController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBE83A0D1CF5236200CF1100 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBE83A161CF5236200CF1100 /* LoveLove_FilmsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBE83A181CF5236200CF1100 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBE83A211CF5236200CF1100 /* LoveLove_FilmsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBE83A131CF5236200CF1100 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBE839FC1CF5236200CF1100 /* LoveLove Films */;
+			targetProxy = EBE83A121CF5236200CF1100 /* PBXContainerItemProxy */;
+		};
+		EBE83A1E1CF5236200CF1100 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBE839FC1CF5236200CF1100 /* LoveLove Films */;
+			targetProxy = EBE83A1D1CF5236200CF1100 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EBE83A231CF5236200CF1100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBE83A241CF5236200CF1100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBE83A261CF5236200CF1100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3DEC2B33D962062D1820B29 /* Pods-LoveLove Films.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "LoveLove Films/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kmcgowan0.LoveLove-Films";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EBE83A271CF5236200CF1100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2118FE7B4D6E4E643FDCCBDA /* Pods-LoveLove Films.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "LoveLove Films/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kmcgowan0.LoveLove-Films";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EBE83A291CF5236200CF1100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "LoveLove FilmsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kmcgowan0.LoveLove-FilmsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoveLove Films.app/LoveLove Films";
+			};
+			name = Debug;
+		};
+		EBE83A2A1CF5236200CF1100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "LoveLove FilmsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kmcgowan0.LoveLove-FilmsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoveLove Films.app/LoveLove Films";
+			};
+			name = Release;
+		};
+		EBE83A2C1CF5236200CF1100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "LoveLove FilmsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kmcgowan0.LoveLove-FilmsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "LoveLove Films";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EBE83A2D1CF5236200CF1100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "LoveLove FilmsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kmcgowan0.LoveLove-FilmsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "LoveLove Films";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBE839F81CF5236200CF1100 /* Build configuration list for PBXProject "LoveLove Films" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBE83A231CF5236200CF1100 /* Debug */,
+				EBE83A241CF5236200CF1100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBE83A251CF5236200CF1100 /* Build configuration list for PBXNativeTarget "LoveLove Films" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBE83A261CF5236200CF1100 /* Debug */,
+				EBE83A271CF5236200CF1100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBE83A281CF5236200CF1100 /* Build configuration list for PBXNativeTarget "LoveLove FilmsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBE83A291CF5236200CF1100 /* Debug */,
+				EBE83A2A1CF5236200CF1100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBE83A2B1CF5236200CF1100 /* Build configuration list for PBXNativeTarget "LoveLove FilmsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBE83A2C1CF5236200CF1100 /* Debug */,
+				EBE83A2D1CF5236200CF1100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EBE83A3B1CF523D100CF1100 /* LoveLove_I_phone.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EBE83A3C1CF523D100CF1100 /* LoveLove_I_phone.xcdatamodel */,
+			);
+			currentVersion = EBE83A3C1CF523D100CF1100 /* LoveLove_I_phone.xcdatamodel */;
+			path = LoveLove_I_phone.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EBE839F51CF5236200CF1100 /* Project object */;
+}
